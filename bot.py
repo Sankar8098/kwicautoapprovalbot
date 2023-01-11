@@ -14,14 +14,14 @@ app = Client(
 )
 
 gif = [
-    'https://te.legra.ph/file/a1b3d4a7b5fce249902f7.mp4',
-    'https://te.legra.ph/file/0c855143a4039108df602.mp4',
-    'https://te.legra.ph/file/d7f3f18a92e6f7add8fcd.mp4',
-    'https://te.legra.ph/file/9e334112ee3a4000c4164.mp4',
-    'https://te.legra.ph/file/652fc39ae6295272699c6.mp4',
-    'https://te.legra.ph/file/702ca8761c3fd9c1b91e8.mp4',
-    'https://te.legra.ph/file/a1b3d4a7b5fce249902f7.mp4',
-    'https://te.legra.ph/file/d7f3f18a92e6f7add8fcd.mp4',
+    'https://te.legra.ph/file/3a585ef1da2f450de57b6.mp4',
+    'https://te.legra.ph/file/23cadbc648f89f37b7ebc.jpg',
+    'https://te.legra.ph/file/4924f9a6ee77c49e45e47.jpg',
+    'https://te.legra.ph/file/77dd8ec151c181b1116be.jpg',
+    'https://te.legra.ph/file/2073b06eb0f680f251ae9.jpg',
+    'https://te.legra.ph/file/9db04a7696f88a08ec089.jpg',
+    'https://te.legra.ph/file/09601a87100e6b2886f50.jpg',
+    'https://te.legra.ph/file/d6b8f346a4dfab0973fa1.jpg',
     'https://te.legra.ph/file/0c855143a4039108df602.mp4',
     'https://te.legra.ph/file/9e334112ee3a4000c4164.mp4',
     'https://te.legra.ph/file/702ca8761c3fd9c1b91e8.mp4'
@@ -63,7 +63,7 @@ async def op(_, m :Message):
                 ]
             )
             add_user(m.from_user.id)
-            await m.reply_photo("https://te.legra.ph/file/8dfe7256883cbc0190478.jpg", caption="**🦊 Hello {}!\nI'm an auto approve [Admin Join Requests]({}) Bot.\nI can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.\n\n__Powerd By : @SK_MoviesOffl__**".format(m.from_user.mention, "https://t.me/telegram/153"), reply_markup=keyboard)
+            await m.reply_photo("https://te.legra.ph/file/3a585ef1da2f450de57b6.mp4", caption="**🦊 Hello {}!\nI'm an auto approve [Admin Join Requests]({}) Bot.\nI can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.\n\n__Powerd By : @SK_MoviesOffl__**".format(m.from_user.mention, "https://t.me/telegram/153"), reply_markup=keyboard)
     
         elif m.chat.type == enums.ChatType.GROUP or enums.ChatType.SUPERGROUP:
             keyboar = InlineKeyboardMarkup(
