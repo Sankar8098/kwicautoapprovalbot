@@ -22,9 +22,9 @@ gif = [
     'https://te.legra.ph/file/9db04a7696f88a08ec089.jpg',
     'https://te.legra.ph/file/09601a87100e6b2886f50.jpg',
     'https://te.legra.ph/file/d6b8f346a4dfab0973fa1.jpg',
-    'https://te.legra.ph/file/0c855143a4039108df602.mp4',
-    'https://te.legra.ph/file/9e334112ee3a4000c4164.mp4',
-    'https://te.legra.ph/file/702ca8761c3fd9c1b91e8.mp4'
+    'https://te.legra.ph/file/71d75089a859170e7a1db.mp4',
+    'https://te.legra.ph/file/9021e75532fa7ecc88c92.jpg',
+    'https://te.legra.ph/file/75f421b65f6f86ed40745.jpg'
 ]
 
 
